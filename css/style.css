@@ -23,16 +23,25 @@ body {
     color: rgb(0, 0, 0);
 }*/
 a {
+
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(255, 255, 255); 
     position: relative; 
+}
+ol {
+    margin-right: 20px;
+}
+dl {
+    margin-right: 35px;
+    display: inline-block;
 }
 ul {
     margin: 0;
     padding: 10px;
     display: flex;
+    
     justify-content: space-around;
     list-style: none;
     align-items: center;
@@ -43,11 +52,13 @@ li {
 nav {
     height: 5rem;
     background-color: #222;
-    width: 1920px;
+    width: 1900px;
     border-radius: 5px;
 }
 .link {
     font-style: italic; 
+    /*max-width: 1200px;
+    min-width: 1200px;*/
 }
 .link::after,
 .link::before {
@@ -100,15 +111,20 @@ h1 {
     margin-bottom: 320px;
 }
 .header__title-left {
+    
+    max-width: 1200px;
+    width: 1200px;
     display: flex;
-    min-width: 800px;
+    min-width: 1200px;
     align-items: center;
 }
 .header__title-right {
     min-width: 270px;
+
 }
 .header_title_right img{
-    margin-right: 20px;
+    margin-right: 5px;
+    
 }
 /*.menu {
 }*/
@@ -144,6 +160,8 @@ h1 span{
     text-decoration: underline;
 }
 .btn {
+    height: 50px;
+    width: 200px;
     background-color: rgb(194, 142, 0);
     border: none;
     border-radius: 120px;
@@ -157,7 +175,7 @@ h1 span{
 .header_content_button{
     opacity: 0.9;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 110px;
 }
 .header_content_button a:hover{
     opacity: 1;
@@ -167,12 +185,13 @@ h1 span{
 .header_content a{
     display: inline-block;
     max-width: 300px;
-    height: 60px;
+    height: 120px;
+    width: 280px;
     border: 1px solid rgb(0, 0, 0);
     padding: 16px 23px;
     border-radius: 50px;
     font-family: "Inter", sans-serif;
     background-color: rgb(0, 0, 0);
-    color:rgb(43, 45, 47) ;
+    color:rgb(0, 0, 0) ;
     margin-right: 40px;
 }
