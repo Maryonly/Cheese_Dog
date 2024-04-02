@@ -14,7 +14,6 @@ body {
     
     line-height: 26px;
     background-color: rgb(255, 255, 255);
-    display: flex;
 }
 /*a {
     font-family: Poppins;
@@ -41,7 +40,6 @@ ul {
     margin: 0;
     padding: 10px;
     display: flex;
-    
     justify-content: space-around;
     list-style: none;
     align-items: center;
@@ -53,7 +51,7 @@ nav {
     height: 5rem;
     background-color: #222;
     width: 1900px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 .link {
     font-style: italic; 
@@ -83,7 +81,6 @@ nav {
 .link:hover::before {
     width: 100%;
 }
-
 h1, h2 {
     margin: 0;
 }
@@ -199,24 +196,20 @@ h1 span{
     margin-right: 40px;
 }
 .about {
-    padding: 80px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.about__inner {
     max-width: 1920px;
     min-width: 1920px;
-    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+}
+.about__inner {
     background-color: rgba(205, 168, 97, 0.1);
-    margin: 0 auto;
     display: flex;
     align-items: center;
 }
-.about__decor {
+/* .about__decor {
 
-}
+} */
 .about__content {
     position: relative;
     margin-left: 90px;
@@ -244,5 +237,74 @@ h1 span{
 .about__text {
     color: #34383d;
     opacity: 0.8;
-
+    margin-bottom: 25px;
 }
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    max-width: 1920px;
+    min-width: 1920px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__box{
+    background-color: #000;
+}
+.logo img {
+    height: 50px;
+    width: auto;
+}
+.social-links .social-icon {
+    color: #f90;
+    font-size: 24px;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+.social-links .social-icon:hover {
+    color: #fff;
+}
+.footer-bottom {
+    background-color: black;
+    margin-top: 20px;
+}
+.footer-text {
+    font-size: 14px;
+}
+.orange-text {
+    color: #f90;
+}
+.white-text {
+    color: #fff;
+}
+
+/* .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skip-color {
+    color: orange;
+} */
