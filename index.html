@@ -21,28 +21,28 @@
                         <nav>
                             <ul>
                               <a href="#"> <img src="photo/logo.png" width="60" height="60" alt="chessedog-logo"> </a>
-                              <li><a href="#" class="link">Головна</a></li>
-                              <li><a href="#" class="link">Про нас</a></li>
-                              <li><a href="#" class="link">Новини</a></li>
-                              <li><a href="#" class="link">Меню</a></li>
-                              <li><a href="#" class="link">Ціни</a></li>
-                              <li><a href="#" class="link">Контакти</a></li>
+                              <li><a href="#home" class="link">Головна</a></li>
+                              <li><a href="#about" class="link">Про нас</a></li>
+                              <li><a href="#event" class="link">Новини</a></li>
+                              <li><a href="#menu" class="link">Меню</a></li>
+                              <li><a href="#reserv" class="link">Замовити</a></li>
+                              <li><a href="#contact" class="link">Контакти</a></li>
                               <div class="header__title-right">
                                 <ol>
                                 <dl><a href="https://www.instagram.com/cheesedog.khm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="photo/icon-instagram.png" width="30" height="30" alt="insta-icon"></a></dl>
                                 <dl><a href="https://www.facebook.com/cheesedog.km/"><img src="photo/icon-facebook.png" width="30" height="30" alt="facebook-icon"></a> </dl>
                                 <dl><a href="#"><img src="photo/icon-call.png" width="30" height="30" alt="phone-icon"></a></dl>
-                                <dl><a href="#"><img src="photo/search.png" width="30px" height="30px" alt="find"> </a></dl>
                                 </ol>
+                            </ul>
+                        </nav>
+                  </div>  
                     </div>
                 </div>
                               
-                            </ul>
-                          </nav>
-                    </div>   
+                            
                 
             </div>
-            <div class="header__content">
+            <div class="header__content" id="home">
                 <h1>Хрустка булка з кунжутом, сир, <span>свіже м’ясо,</span> якісна сосиска</h1>
                 <div class="header__content-text">
                     <div class="header_content_button"> 
@@ -56,7 +56,7 @@
         </div>
     </header>
     
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__inner">
                 <img src="photo/cheesedog.jpg" width="560px" height="560px" alt="photo-about" class="about__decor">
@@ -75,7 +75,43 @@
         </div>
     </section>
 
-    <section class="product">
+
+    <section class="section__container order__container" id="menu">
+        <h3>ЗАВЖДИ СМАЧНО</h3>
+        <h2 class="section__order">ОБЕРИ & СПОБУЙ</h2>
+        <p class="section__description">
+            Незалежно від того, чи є ви прихильником незмінних смаків чи авантюрних поєднань, ваша кулінарна пригода чекає на вас із Cheese Dog. Побалуйте свої смакові рецептори та насолоджуйтеся кожним ковтком, створюючи індивідуальний досвід з Cheese Dog.
+        </p>
+        <div class="order__grid">
+          <div class="order__card">
+            <img src="slider/gavajsk.jpg" alt="order" />
+            <h4>Гавайський чіздог</h4>
+            <p>
+                Вічна класика - гавайський cheese dog💛
+                Сир, смажений з кукурудзкою - що може бути смачніше?🤤
+            </p>
+            <button class="btn"><a href="#">Купуй</a></button>
+          </div>
+          <div class="order__card">
+            <img src="slider/lavash.jpg" alt="order" />
+            <h4>Лаваш з куркою</h4>
+            <p>
+                Лаваш з куркою та сиром 🧀
+                Лаваш, соус, салат, куряче мясо, сир - прості інгредієнти, які у поєднанні утворюють надзвичайний смак!
+            </p>
+            <button class="btn"><a href="#">Купуй</a></button>
+          </div>
+          <div class="order__card">
+            <img src="slider/круасан.jpg" alt="order" />
+            <h4>Круасан з сосискою</h4>
+            <p>
+                Підсмажений круасан, пікантний соус, свіжий салат, фірмовий топлений сир та смачна сосиска - твої смакові рецептори будуть у повному екстазі 🤩
+            </p>
+            <button class="btn"><a href="#">Купуй</a></button>
+          </div>
+        </div>
+      </section>
+    <!-- <section class="product">
         <div class="container">
             <h2 class="sectoin__title"> Що ви можете придбати </h2>
             <div class="product__text"></div>
@@ -86,46 +122,112 @@
                         <h3 class="product__slider-title"></h3>
                     </div>
                     <div> stars </div>
+                    
                 </div>
             </div> 
         </div>
-    </section>
-
+    </section> -->
+    
+    <section class="section__container event__container" id="event">
+        <div class="event__content">
+          <div class="event__image">
+            <img src="photo/present.jpg" height="650px" width="650px" alt="event">
+          </div>
+          <div class="event__details">
+            <h3>Discover</h3>
+            <h2 class="section__header">UPCOMING EVENTS</h2>
+            <p class="section__description">
+              From exclusive burger tastings and chef collaborations to community
+              outreach initiatives and seasonal celebrations, there's always
+              something special on the horizon at Burger Company. Be the first to
+              know about our upcoming events, promotions, and gatherings as we
+              continue to bring joy and flavor to our cherished customers. Join us
+              in creating memorable moments and delicious memories together!
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <div class="reserv">
+        <section class="section__container reservation" id="reserv">
+            <h1>Зв'яжися із нами</h1>
+          <form id="contact-form">
+            <div class="form-row">
+              <label for="first-name">Прізвище:</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-row">
+              <label for="last-name">Ім'я:</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-row">
+              <label for="phone-number">Номер телефону:</label>
+              <input type="tel" id="phone-number" name="phone-number" required />
+            </div>
+            <div class="form-row">
+              <label for="date-time">Дата і час:</label>
+              <input type="datetime-local" id="date-time" name="date-time" required />
+            </div>
+            <button type="submit">Замовити</button>
+          </form>
+        </section>
+    </div>
+    
+   
     <footer>
-        <div class="container">  
-            <div class="footer__box">
-                <div class="logo">
-                    <img src="logo.png" alt="Логотип">
-                </div>
-                <div class="social-links">
-                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
-                </div>
-                <div class="footer-bottom">
-                    <p class="footer-text">«<span class="orange-text">Cheese</span> <span class="white-text">Dog</span>» - місце твого найсмачнішого перекусу 😎</p>
-                </div>
-            </div>
-        </div>
-        
-    </footer>
-    
-    <!-- <section class="footer">
+        <section class="section__container" id="contact">
+            <div class="gooey-animations"></div>
+
         <div class="container">
-            <div class="row">
-                <div class="pt-3">
-                    <p class="text-light text-center">&copy; 2023 EatMore. Sample design for testing.</p>
-                </div>
-                <div class="text-center">
-                    <p class="text-light">Designed by Aswanth</p>
-                </div>
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <div class="footer-column">
+                    <h3>Контактна інформація</h3>
+                    <p>Телефон: +1234567890</p>
+                    <p>Email: info@example.com</p>
+                  </div>
+                  <div class="footer-column">
+                    <h3>Адреса</h3>
+                    <p>Місто, Вулиця, Будинок</p>
+                    <p>Поштовий індекс: 12345</p>
+                  </div>
+                
+                
+            </div>
+            <div class="subscribe">
+                <h3>Never Miss a Recipe</h3>
+                <p>Join our subscribers and get best recipe delivered each week!</p>
+                <input type="email" placeholder="Email Address">
+                <button type="button">Subscribe</button>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="footer">
-        <h2 class="title"><span class="skip-color">Eat </span> Fresh</h2>
-        <p class="h2">Eat healthy to live healthy. Live healthy to live happy.</p>
-    
-    </section> -->
+        <div class="copyright">
+            <p>© 2020 Zero Inc. All rights Reserved</p>
+        </div>
+
+        <h1>This footer was made by <span>Wouter.</span></h1>
+        </section>
+        
+      </footer>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+      </svg>
+      
+      <svg viewbox="0 0 1440 328" width="100vw">
+          <defs>
+              <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
+                  <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
+              </clipPath>
+          </defs>
+      </svg>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="main.js"></script>
 </body>
 </html>
