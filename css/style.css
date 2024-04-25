@@ -155,6 +155,7 @@ h1, h2 {
     margin-top: -2px;
 }
 .header_content h1{    
+    padding: 50px;
     font-family: "Inter", sans-serif;
     font-weight: 820px;
     font-size: 48px;
@@ -365,6 +366,7 @@ h1 span{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 60px;
     height: 800px;
 }
 .reservation {
@@ -375,13 +377,6 @@ h1 span{
     margin: 2rem auto;
     border: 1px solid #e9ecef;
     border-radius: 4px;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #df9902;
 }
 
 .form-row {
@@ -430,7 +425,7 @@ footer {
     justify-content: center;
     overflow: hidden;
     height: 390px;
-    bottom: 0;
+    bottom: 0px;
     filter: url("#goo");
     
   }
@@ -634,9 +629,9 @@ footer {
       margin-inline-start: unset;
     }
   
-    h1 {
+    /* h1 {
       text-align: left;
-    }
+    } */
   
     .order__grid {
       grid-template-columns: repeat(3, 1fr);
