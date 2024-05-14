@@ -43,7 +43,8 @@
                 
             </div>
             <div class="header__content" id="home">
-                <h1>Хрустка булка з кунжутом, сир, <span>свіже м’ясо,</span> якісна сосиска</h1>
+                <h1 class="header__content__title">«Cheese dog» - місце твого <span>найсмачнішого</span> перекусу!</h1>
+                <h1 class="header__content__title">Підсмажена до золотистої шкоринки булочка, найсмачніший топлений сир, улюблені соуси та додатки, від яких просто зносить дах.</h1>
                 <div class="header__content-text">
                     <div class="header_content_button"> 
                         <button class="btn">
@@ -59,7 +60,9 @@
     <section class="about" id="about">
         <div class="container">
             <div class="about__inner">
+              <div class="about__image">
                 <img src="photo/cheesedog.jpg" width="560px" height="560px" alt="photo-about" class="about__decor">
+              </div>
                 <div class="about__content">
                     <h2 class="sectoin__title">Про нас</h2>
                     <div class="about__slogan">Cheese Dog</div>
@@ -78,9 +81,11 @@
 
     <section class="section__container order__container" id="menu">
         <h3>ЗАВЖДИ СМАЧНО</h3>
-        <h2 class="section__order">ОБЕРИ & СПОБУЙ</h2>
+        <!-- <h2>ОБЕРИ & СПОБУЙ</h2> -->
         <p class="section__description">
-            Незалежно від того, чи є ви прихильником незмінних смаків чи авантюрних поєднань, ваша кулінарна пригода чекає на вас із Cheese Dog. Побалуйте свої смакові рецептори та насолоджуйтеся кожним ковтком, створюючи індивідуальний досвід з Cheese Dog.
+            Незалежно від того, чи є ви прихильником незмінних смаків чи авантюрних поєднань, ваша кулінарна пригода чекає на вас із Cheese Dog. 
+        </p>
+        <p class="section__description">Побалуйте свої смакові рецептори та насолоджуйтеся кожним ковтком, створюючи індивідуальний досвід з Cheese Dog.
         </p>
         <div class="order__grid">
           <div class="order__card">
@@ -118,21 +123,19 @@
             <img src="photo/present.jpg" height="650px" width="650px" alt="event">
           </div>
           <div class="event__details">
-            <h3>Discover</h3>
-            <h2 class="section__header">UPCOMING EVENTS</h2>
+            <h3>Акція</h3>
+            <h2 class="section__header">ПРОГРАМА ЛОЯЛЬНОСТІ</h2>
             <p class="section__description">
-              From exclusive burger tastings and chef collaborations to community
-              outreach initiatives and seasonal celebrations, there's always
-              something special on the horizon at Burger Company. Be the first to
-              know about our upcoming events, promotions, and gatherings as we
-              continue to bring joy and flavor to our cherished customers. Join us
-              in creating memorable moments and delicious memories together!
+              Програма лояльності для постійних клієнтів 🤩 Купуєте будь-яких 10 чіздогів і отримайте одинадцятий чіздог у подарунок. Хтось щодня з‘їдає безкоштовний чіздог, чому не ти!
+            </p>
+            <p class="section__description">
+              Більш детальну інформацію стосовно подарункового чіздогу уточнюйте у продавця-консультанта. Акція не має терміну дії, розповсюджується на будь-які чіздоги у нашому меню і не діє на сендвічі, тортілью або суп.
             </p>
           </div>
         </div>
       </section>
     
-      <div class="reserv">
+    <div class="reserv">
         <section class="section__container reservation" id="reserv">
             <h1>Зв'яжися із нами</h1>
           <form id="contact-form">
@@ -158,41 +161,41 @@
     </div>
     
    
-    <footer>
+    <!-- <footer>
         <section class="section__container" id="contact">
             <div class="gooey-animations"></div>
 
         <div class="container">
-            <div class="contact-info">
-                <h3>Contact</h3>
+          <h3>Contact</h3>
+            <div class="contact-info1">
+
+
                 <div class="footer-column">
                     <h3>Контактна інформація</h3>
                     <p>Телефон: +1234567890</p>
                     <p>Email: info@example.com</p>
                   </div>
-                  <div class="footer-column">
-                    <h3>Адреса</h3>
-                    <p>Місто, Вулиця, Будинок</p>
-                    <p>Поштовий індекс: 12345</p>
-                  </div>
-                
-                
+  
             </div>
+            <div class="contact-info2">
+              <div class="footer-column">
+                <h3>Адреса</h3>
+                <p>Місто, Вулиця, Будинок</p>
+                <p>Поштовий індекс: 12345</p>
+              </div>
+            </div>
+
             <div class="subscribe">
-                <h3>Never Miss a Recipe</h3>
-                <p>Join our subscribers and get best recipe delivered each week!</p>
+                <h3>Не забудь підписку на нас</h3>
+                <p>Наші підписники завжди отримують найсвіжіші новинки про нашу продукцію!</p>
                 <input type="email" placeholder="Email Address">
                 <button type="button">Subscribe</button>
             </div>
         </div>
-        <div class="copyright">
-            <p>© 2020 Zero Inc. All rights Reserved</p>
-        </div>
-
-        <h1>This footer was made by <span>Wouter.</span></h1>
+        
         </section>
         
-      </footer>
+    </footer>
       
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
@@ -204,14 +207,63 @@
         </defs>
       </svg>
       
-      <svg viewbox="0 0 1440 328" width="100vw">
+      <svg viewbox="0 0 1440 0" width="50vw">
           <defs>
               <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
                   <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
               </clipPath>
           </defs>
       </svg>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    
+      <footer class="container_footer">
+        <div class="footer">
+          <div class="newsletter">
+            <div class="newsletter-left">
+              <h2>Subscribe to our</h2>
+              <h1>CheeseDog</h1>
+            </div>
+            <div class="newsletter-right">
+              <div class="newsletter-input">
+                <input type="text" placeholder="Введіть вашу email адресу" />
+                <button>Підписатися</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="footer-content">
+            <div class="footer-main">
+              <h2>Не забудь підписку на нас</h2>
+              <p>Наші підписники завжди отримують найсвіжіші новинки про нашу продукцію!</p>
+              <div class="social-links">
+                <a href="#"><i class="instagram-logo"></i></a>
+                <a href="#"><i class="twitter-logo"></i></a>
+                <a href="#"><i class="tiktok-logo"></i></a>
+                <a href="#"><i class="facebook-logo"></i></a>
+              </div>
+            </div>
+            <div class="links">
+              <p>Інформація</p>
+              <a href="#home" class="link">Our Company</a>
+              <a href="#about" class="link">About Us</a>
+              <a href="#event" class="link">Shares</a>
+            </div>
+            <div class="links">
+              <p>Корисні посилання</p>
+              <a href="" class="link">Services </a>
+              <a href="" class="link">Support</a>
+              <a href="" class="link">Terms & Condition</a>
+            </div>
+            <div class="links">
+              <p>Navigation</p>
+              <a href="#home" class="link">Home</a>
+              <a href="#about" class="link">About</a>
+              <a href="#contact" class="link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
       <script src="main.js"></script>
 </body>
 </html>
