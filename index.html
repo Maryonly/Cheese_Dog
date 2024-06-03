@@ -14,16 +14,14 @@
 
 <body>
     <header>
-      <div class="header1">
-
-        <div class="menuToggle" onclick="activeMenu();"></div>
+      <div class="menuToggle" onclick="activeMenu();"></div>
         <ul class="navigation">
           <a href="index.html" class="logo">Cheese<span>Dog</span></a>
             <li><a href="#home" id="#home" onclick="activeMenu();">Home</a></li>
             <li><a href="#about" id="#about" onclick="activeMenu();">About</a></li>
             <li><a href="menu/menu.html" id="#menu" onclick="activeMenu();">Menu</a></li>
             <li><a href="#event" id="#event" onclick="activeMenu();">Event</a></li>
-            <li><a href="#contact" id="#contact" onclick="activeMenu();">Contact</a></li>
+            <li><a href="contact/contact.html" id="#contact" onclick="activeMenu();">Contact</a></li>
         </ul>
       </div>
     </header>
@@ -116,7 +114,7 @@
         </div>
       </section>
     
-    <div class="reserv">
+    <!-- <div class="reserv">
         <section class="section__container reservation" id="reserv">
             <h1>Зв'яжися із нами</h1>
           <form id="contact-form">
@@ -139,64 +137,65 @@
             <button type="submit">Замовити</button>
           </form>
         </section>
-    </div>
+    </div> -->
     
-   
-    <!-- <footer>
-        <section class="section__container" id="contact">
-            <div class="gooey-animations"></div>
-
-        <div class="container">
-          <h3>Contact</h3>
-            <div class="contact-info1">
-
-
-                <div class="footer-column">
-                    <h3>Контактна інформація</h3>
-                    <p>Телефон: +1234567890</p>
-                    <p>Email: info@example.com</p>
-                  </div>
-  
-            </div>
-            <div class="contact-info2">
-              <div class="footer-column">
-                <h3>Адреса</h3>
-                <p>Місто, Вулиця, Будинок</p>
-                <p>Поштовий індекс: 12345</p>
+    <section class="client__container" id="client">
+      <h2 class="section__header">Основні відгуки наших клієнтів</h2>
+      <p class="section__description">
+        Ознайомтеся з особистими відгуками наших цінних клієнтів. Перегляньте відгуки та
+        відгуки, які демонструють наш компромісний підхід до якості, сервісу та
+        задоволення клієнтів.
+      </p>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Кулінарний талант FoodMan завжди вражає! Кожна страва - шедевр,
+                  наповнений смаком та свіжістю.
+                </p>
+                <img src="photo/client-1.jpg" alt="client" />
+                <h4>Девід Лі</h4>
+                <h5>Керівник бізнесу</h5>
               </div>
             </div>
-
-            <div class="subscribe">
-                <h3>Не забудь підписку на нас</h3>
-                <p>Наші підписники завжди отримують найсвіжіші новинки про нашу продукцію!</p>
-                <input type="email" placeholder="Email Address">
-                <button type="button">Subscribe</button>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Я завжди звертаюся до FoodMan для швидкого та смачного обіду. Ефективна
+                  служба та насолода від смаку ніколи не розчаровують!
+                </p>
+                <img src="photo/client-2.jpg" alt="client" />
+                <h4>Емілі Джонсон</h4>
+                <h5>Блогер про їжу</h5>
+              </div>
             </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  FoodMan став моїм улюбленим місцем для організації всіх моїх
+                  заходів. Увага до деталей та виняткова сервісна якість роблять кожен
+                  захід успішним.
+                </p>
+                <img src="photo/client-3.jpg" alt="client" />
+                <h4>Майкл Томпсон</h4>
+                <h5>Планувальник заходів</h5>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        
-        </section>
-        
-    </footer>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <defs>
-          <filter id="goo">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7" result="goo" />
-            <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-        </defs>
-      </svg>
-      
-      <svg viewbox="0 0 1440 0" width="50vw">
-          <defs>
-              <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
-                  <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
-              </clipPath>
-          </defs>
-      </svg>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    
+      </div>
+    </section>
+
       <footer class="container_footer">
         <div class="footer">
           <div class="newsletter">
@@ -246,5 +245,6 @@
       </footer>
       
       <script src="main.js"></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>

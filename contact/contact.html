@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cheese Dog</title>
+    <link rel="website icon" type="png" href="photo/icon-hot-dog.png">
+    <!-- Global CSS -->
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="menuToggle" onclick="activeMenu();"></div>
+            <ul class="navigation">
+            <a href="../index.html" class="logo">Cheese<span>Dog</span></a>
+                <li><a href="#home" id="#home" onclick="activeMenu();">Home</a></li>
+                <li><a href="#about" id="#about" onclick="activeMenu();">About</a></li>
+                <li><a href="menu/menu.html" id="#menu" onclick="activeMenu();">Menu</a></li>
+                <li><a href="#event" id="#event" onclick="activeMenu();">Event</a></li>
+                <li><a href="#contact" id="#contact" onclick="activeMenu();">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="reserv">
+        <section class="section__container reservation" id="reserv">
+            <h1>Зв'яжися із нами</h1>
+          <form id="contact-form" action="save_data.php">
+            <div class="form-row">
+              <label for="first-name">Прізвище:</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-row">
+              <label for="last-name">Ім'я:</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-row">
+              <label for="phone-number">Номер телефону:</label>
+              <input type="tel" id="phone-number" name="phone-number" required />
+            </div>
+            <div class="form-row">
+              <label for="date-time">Дата і час:</label>
+              <input type="datetime-local" id="date-time" name="date-time" required />
+            </div>
+            <button type="submit">Замовити</button>
+          </form>
+        </section>
+    </div>
+    
+      <footer class="container_footer">
+        <div class="footer">
+          <div class="newsletter">
+            <div class="newsletter-left">
+              <h2>Subscribe to our</h2>
+              <h1>CheeseDog</h1>
+            </div>
+            <div class="newsletter-right">
+              <div class="newsletter-input">
+                <input type="text" placeholder="Введіть вашу email адресу" />
+                <button>Підписатися</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="footer-content">
+            <div class="footer-main">
+              <h2>Не забудь підписку на нас</h2>
+              <p>Наші підписники завжди отримують найсвіжіші новинки про нашу продукцію!</p>
+              <div class="social-links">
+                <a href="#"><i class="instagram-logo"></i></a>
+                <a href="#"><i class="twitter-logo"></i></a>
+                <a href="#"><i class="tiktok-logo"></i></a>
+                <a href="#"><i class="facebook-logo"></i></a>
+              </div>
+            </div>
+            <div class="links">
+              <p>Інформація</p>
+              <a href="#home" class="link">Our Company</a>
+              <a href="#about" class="link">About Us</a>
+              <a href="#event" class="link">Shares</a>
+            </div>
+            <div class="links">
+              <p>Корисні посилання</p>
+              <a href="" class="link">Services </a>
+              <a href="" class="link">Support</a>
+              <a href="" class="link">Terms & Condition</a>
+            </div>
+            <div class="links">
+              <p>Navigation</p>
+              <a href="#home" class="link">Home</a>
+              <a href="#about" class="link">About</a>
+              <a href="#contact" class="link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <script src="main.js"></script>
+</body>
+</html>
