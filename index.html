@@ -29,9 +29,9 @@
     <section class="banner" id="banner">
       <div class="content">
         <h1>«Cheese dog» - місце твого <span>найсмачнішого</span> перекусу!</h1>
-        <h1>Підсмажена до золотистої шкоринки булочка, найсмачніший топлений сир, улюблені соуси та додатки, від яких просто зносить дах.</h1>
+        <h1> <i>Підсмажена до золотистої шкоринки булочка, найсмачніший топлений сир, улюблені соуси та додатки, від яких просто зносить дах.</i></h1>
         <button class="btn">
-          <a href="#">Дізнатися</a>
+          <a href="about/about.html">Дізнатися</a>
         </button>
       </div>
     </section>
@@ -48,7 +48,7 @@
                     <div class="about__text">Дивись меню в збережених хайлайтс, роби замовлення в Дірект та забирай свій чіздог без часу на очікування приготування. Швидко, зручно, смачно💛</div>
                     <div class="header_content_button"> 
                         <button class="btn">
-                            <a href="#">Купуй</a>
+                            <a href="about/about.html">Купуй</a>
                         </button>
                     </div>
                     
@@ -74,7 +74,7 @@
                 Вічна класика - гавайський cheese dog💛
                 Сир, смажений з кукурудзкою - що може бути смачніше?🤤
             </p>
-            <button class="btn"><a href="#">Купуй</a></button>
+            <button class="btn"><a href="menu/menu.html">Купуй</a></button>
           </div>
           <div class="order__card">
             <img src="slider/lavash.jpg" alt="order" />
@@ -83,7 +83,7 @@
                 Лаваш з куркою та сиром 🧀
                 Лаваш, соус, салат, куряче мясо, сир - прості інгредієнти, які у поєднанні утворюють надзвичайний смак!
             </p>
-            <button class="btn"><a href="#">Купуй</a></button>
+            <button class="btn"><a href="menu/menu.html">Купуй</a></button>
           </div>
           <div class="order__card">
             <img src="slider/круасан.jpg" alt="order" />
@@ -91,7 +91,7 @@
             <p>
                 Підсмажений круасан, пікантний соус, свіжий салат, фірмовий топлений сир та смачна сосиска - твої смакові рецептори будуть у повному екстазі 🤩
             </p>
-            <button class="btn"><a href="#">Купуй</a></button>
+            <button class="btn"><a href="menu/menu.html">Купуй</a></button>
           </div>
         </div>
       </section>
@@ -114,30 +114,6 @@
         </div>
       </section>
     
-    <!-- <div class="reserv">
-        <section class="section__container reservation" id="reserv">
-            <h1>Зв'яжися із нами</h1>
-          <form id="contact-form">
-            <div class="form-row">
-              <label for="first-name">Прізвище:</label>
-              <input type="text" id="first-name" name="first-name" required />
-            </div>
-            <div class="form-row">
-              <label for="last-name">Ім'я:</label>
-              <input type="text" id="last-name" name="last-name" required />
-            </div>
-            <div class="form-row">
-              <label for="phone-number">Номер телефону:</label>
-              <input type="tel" id="phone-number" name="phone-number" required />
-            </div>
-            <div class="form-row">
-              <label for="date-time">Дата і час:</label>
-              <input type="datetime-local" id="date-time" name="date-time" required />
-            </div>
-            <button type="submit">Замовити</button>
-          </form>
-        </section>
-    </div> -->
     
     <section class="client__container" id="client">
       <h2 class="section__header">Основні відгуки наших клієнтів</h2>
@@ -146,47 +122,59 @@
         відгуки, які демонструють наш компромісний підхід до якості, сервісу та
         задоволення клієнтів.
       </p>
-      <div class="client__swiper">
+
+      
         <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="client__card">
-                <p>
-                  Кулінарний талант FoodMan завжди вражає! Кожна страва - шедевр,
-                  наповнений смаком та свіжістю.
-                </p>
-                <img src="photo/client-1.jpg" alt="client" />
-                <h4>Девід Лі</h4>
-                <h5>Керівник бізнесу</h5>
+            
+            <div class="row">
+                <div class="client__swiper">
+                  <div class="col-xl-3">
+                  
+                    <div class="client__card">
+                      <p>
+                        Кулінарний талант CheeseDog завжди вражає! Кожна страва - шедевр,
+                        наповнений смаком та свіжістю.
+                      </p>
+                      <img src="photo/client-1.jpg" alt="client" />
+                      <h4>Девід Лі</h4>
+                      <h5>Керівник бізнесу</h5>
+                    </div>
+                  </div>
+                </div>
+              <div class="client__swiper">
+                <div class="col-xl-3">
+                  <div class="client__card">
+                    <p>
+                      Я завжди звертаюся до CheeseDog для швидкого та смачного обіду. Ефективна
+                      служба та насолода від смаку ніколи не розчаровують!
+                    </p>
+                    <img src="photo/client-2.jpg" alt="client" />
+                    <h4>Емілі Джонсон</h4>
+                    <h5>Блогер про їжу</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="client__swiper">
+                <div class="col-xl-3">
+                  <div class="client__card">
+                    <p>
+                      CheeseDog став моїм улюбленим місцем для організації всіх моїх
+                      заходів. Увага до деталей та виняткова сервісна якість роблять кожен
+                      захід успішним.
+                    </p>
+                    <img src="photo/client-3.jpg" alt="client" />
+                    <h4>Майкл Томпсон</h4>
+                    <h5>Планувальник заходів</h5>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="client__card">
-                <p>
-                  Я завжди звертаюся до FoodMan для швидкого та смачного обіду. Ефективна
-                  служба та насолода від смаку ніколи не розчаровують!
-                </p>
-                <img src="photo/client-2.jpg" alt="client" />
-                <h4>Емілі Джонсон</h4>
-                <h5>Блогер про їжу</h5>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="client__card">
-                <p>
-                  FoodMan став моїм улюбленим місцем для організації всіх моїх
-                  заходів. Увага до деталей та виняткова сервісна якість роблять кожен
-                  захід успішним.
-                </p>
-                <img src="photo/client-3.jpg" alt="client" />
-                <h4>Майкл Томпсон</h4>
-                <h5>Планувальник заходів</h5>
-              </div>
-            </div>
-          </div>
+          
           <!-- If we need pagination -->
           <div class="swiper-pagination"></div>
           <!-- Navigation buttons -->
@@ -194,29 +182,34 @@
           <div class="swiper-button-next"></div>
         </div>
       </div>
+      
     </section>
 
       <footer class="container_footer">
         <div class="footer">
-          <div class="newsletter">
-            <div class="newsletter-left">
-              <h2>Subscribe to our</h2>
-              <h1>CheeseDog</h1>
-            </div>
-            <div class="newsletter-right">
-              <div class="newsletter-input">
-                <input type="text" placeholder="Введіть вашу email адресу" />
-                <button>Підписатися</button>
+          <form action="#" id="registration_form">
+            <div class="newsletter">
+              <div class="newsletter-left">
+                <h2>Subscribe to our</h2>
+                <h1>CheeseDog</h1>
+              </div>
+              <div class="newsletter-right">
+                <div class="newsletter-input">
+                  <input type="text" name="email" placeholder="Введіть вашу email адресу" required>
+                  <button type="submit" >Підписатися</button>
+                </div>
               </div>
             </div>
-          </div>
+          </form>
+          <script src="JavaScript/registration.js"></script>
+
   
           <div class="footer-content">
             <div class="footer-main">
               <h2>Не забудь підписку на нас</h2>
               <p>Наші підписники завжди отримують найсвіжіші новинки про нашу продукцію!</p>
               <div class="social-links">
-                <a href="#"><i class="instagram-logo"></i></a>
+                <a href="instagram.com"><i class="instagram-logo"></i></a>
                 <a href="#"><i class="twitter-logo"></i></a>
                 <a href="#"><i class="tiktok-logo"></i></a>
                 <a href="#"><i class="facebook-logo"></i></a>

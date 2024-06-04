@@ -12,6 +12,24 @@ body {
   min-width: 1024px;
 }
 
+
+.logo{
+  align-items: left;
+  color: #f6cc42;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 150px;
+}
+header .sticky.logo{
+  color: #111;
+}
+.logo span{
+  color: #000000;
+}
+
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 3.5px;

@@ -44,7 +44,7 @@ header{
   left: 0;
   z-index: 1000;
   display: flex;
-  align-items: right;
+  /* align-items: right; */
   justify-content: space-between;
   transition: 0.5s;
   width: 100%;
@@ -58,6 +58,7 @@ header .sticky{
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 header .logo{
+  align-items: left;
   color: #f6cc42;
   font-size: 2em;
   text-decoration: none;
@@ -119,7 +120,29 @@ header .sticky.navigation li a{
   width: 900px;
   text-align: center;
 }
+.banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
 
+.banner h1 span {
+  font-weight: 400;
+  color: #ff890b;
+}
+
+.banner h1:first-child {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner h1:nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ebf87a;
+}
 .banner .content h2{
   font-size: 5em;
   color: #fff;
@@ -147,31 +170,6 @@ h1 span{
                 -2px -2px 2px #00000026;
 }
 
-/* .header_content_button{
-  margin-top: 65px;
-  margin-left: 35px;
-  opacity: 0.9;
-  font-size: 22px;
-  line-height: 110px;
-}
-.header_content_button a:hover{
-    opacity: 1;
-    color: #ffffff;
-    transition: all 0.5s;
-}
-.header_content a{
-    display: inline-block;
-    max-width: 300px;
-    height: 120px;
-    width: 280px;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 16px 23px;
-    border-radius: 50px;
-    font-family: "Inter", sans-serif;
-    background-color: rgb(0, 0, 0);
-    color:rgb(0, 0, 0) ;
-    margin-right: 40px;
-} */
 .about {
     max-width: 1920px;
     min-width: 1920px;
@@ -183,6 +181,8 @@ h1 span{
     background-color: rgba(205, 168, 97, 0.1);
     display: flex;
     align-items: center;
+    max-width: 1920px;
+    min-width: 1920px;
 }
 /* .about__decor {
 
@@ -366,6 +366,13 @@ button[type="submit"] {
 }  */
 
 /* Clients */
+
+.client__card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .client__container {
   padding-top: 0;
 }
@@ -378,13 +385,17 @@ button[type="submit"] {
 
 .client__swiper {
   margin-top: 2rem;
-  max-width: 750px;
+  max-width: 650px;
   margin-inline: auto;
   padding: 3rem 1rem;
   overflow: hidden;
   border: 2px solid rgba(252, 127, 9, 0.5);
   box-shadow: 5px 5px 30px rgba(252, 127, 9, 0.2);
   border-radius: 3rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
 }
 
 .swiper {
@@ -394,6 +405,8 @@ button[type="submit"] {
 
 .client__card {
   text-align: center;
+  margin: 20px;
+  flex-basis: 25%;
 }
 
 .client__card p {
@@ -426,37 +439,7 @@ button[type="submit"] {
   background-color: #fc7f09;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  cursor: pointer;
-}
 
-.swiper-button-prev {
-  left: 10px;
-}
-
-.swiper-button-next {
-  right: 10px;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fc7f09;
-}
-
-.swiper-button-prev::after {
-  content: '<';
-}
-
-.swiper-button-next::after {
-  content: '>';
-}
 
 /* footer */
   .container_footer {
